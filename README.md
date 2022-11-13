@@ -5,4 +5,6 @@ this is a tutorial that goes throw the process of making a testing environment w
 - the idea is to test our code using unit testing and end to end testing, jest will be used to test the code sections for unit testing purposes, cypress will be used to test the entire code . 
 - linting utilities such as ESlint together with prettier will be also used to check the code for errors and missing items that would affect the workflow
 - restructuring of functions related to testing via JEST using matchers that would test the code for errors with modern JS syntax, using eslint-jest-plugin.
--  hooks for crucial events such as pre-committing, and pre-merging will be implemented to prevent submitting code that contains some errors
+- workflow automation: using hooks for crucial events such as pre-committing, and pre-merging will be implemented to prevent submitting code that contains some errors
+* pre-commit hook 
+using mrm run : npx mrm@2 lint-staged
