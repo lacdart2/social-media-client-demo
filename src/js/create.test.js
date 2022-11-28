@@ -104,8 +104,5 @@ describe("create a post", () => {
         expect(response.json).toBeTruthy()
     })
 
-    it("throws an error to the user "), () => {
-        expect(toThrow(response.statusText))
-    }
 });
 
