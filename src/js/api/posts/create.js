@@ -11,6 +11,6 @@ export async function createPost(title, body, media, tags) {
   if (response.ok) {
     return await response.json()
   }
-
+ 
   throw new Error(response.statusText)
 }
